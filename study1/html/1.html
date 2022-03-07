@@ -4,9 +4,24 @@
 		<meta charset="utf-8">
 		<title>hello world</title>
 		<script src="../js/vue.js"></script>
-		<script>Vue.config.productionTip=false</script>
 	</head>
 	<body>
-		<span>hello world!</span>
+		<div id="study">
+			<h1>hello world!</h1>
+			<span>{{name.toUpperCase()}}</span>
+			<span>{{age}}</span>
+		</div>
+
+		<script>
+			Vue.config.productionTip = false
+
+			new Vue({
+				el: '#study',
+				data: {
+					name: 'abc',
+					age: '996'
+				}
+			})
+		</script>
 	</body>
 </html>
