@@ -1,14 +1,14 @@
 <template>
-    <div>
-        <Student name="李四" sex="女" :age="18" />
-    </div>
+  <div>
+    <AppStudent name="李四" sex="女" :age="18"/>
+  </div>
 </template>
 
 <script>
-import Student from "./components/Student";
+import AppStudent from "./components/AppStudent";
 
 export default {
-    name: "App",
-    components: { Student },
+  name: "App",
+  components: {AppStudent},
 };
 </script>
