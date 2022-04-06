@@ -1,17 +1,17 @@
 <template>
-    <div>
-        <School />
-        <hr />
-        <Student />
-    </div>
+  <div>
+    <AppSchool/>
+    <hr/>
+    <AppStudent/>
+  </div>
 </template>
 
 <script>
-import School from "./components/School";
-import Student from "./components/Student";
+import AppSchool from "./components/AppSchool";
+import AppStudent from "./components/AppStudent";
 
 export default {
-    name: "App",
-    components: { School, Student },
+  name: "App",
+  components: {AppSchool, AppStudent},
 };
 </script>
