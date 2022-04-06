@@ -21,11 +21,19 @@ Vue.config.productionTip = false
 
 //创建Vue实例对象---vm
 new Vue({
-	el: '#app',
-	//render函数完成了这个功能：将App组件放入容器中
-	render: h => h(App),
-	// render:q=> q('h1','你好啊')
+    el: '#app',
+    //render函数完成了这个功能：将App组件放入容器中
+    // render: function (createElement) {
+    //     return createElement(App);
+    // },
+    //进一步缩写为(ES6语法)：
+    // render (createElement) {
+    //     return createElement(App);
+    // },
+    //再进一步缩写为(箭头函数的写法)：
+    render: h => h(App),
 
-	// template:`<h1>你好啊</h1>`,
-	// components:{App},
+    // render:q=> q('h1','你好啊')
+    // template:`<h1>你好啊</h1>`,
+    // components:{App},
 })

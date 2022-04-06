@@ -1,21 +1,21 @@
 <template>
-    <div>
-        <img src="./assets/logo.png" alt="logo" />
-        <School></School>
-        <Student></Student>
-    </div>
+  <div>
+    <img src="./assets/logo.png" alt="logo"/>
+    <AppSchool></AppSchool>
+    <AppStudent></AppStudent>
+  </div>
 </template>
 
 <script>
 //引入组件
-import School from "./components/School";
-import Student from "./components/Student";
+import AppSchool from "./components/AppSchool";
+import AppStudent from "./components/AppStudent";
 
 export default {
-    name: "App",
-    components: {
-        School,
-        Student,
-    },
+  name: "App",
+  components: {
+    AppSchool,
+    AppStudent,
+  },
 };
 </script>
