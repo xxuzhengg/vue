@@ -1,23 +1,23 @@
 <template>
-	<div>
-		<h1 class="title">你好啊</h1>
-		<School/>
-		<Student/>
-	</div>
+  <div>
+    <h1 class="title">你好啊</h1>
+    <AppSchool/>
+    <AppStudent/>
+  </div>
 </template>
 
 <script>
-	import Student from './components/Student'
-	import School from './components/School'
+import AppStudent from './components/AppStudent'
+import AppSchool from './components/AppSchool'
 
-	export default {
-		name:'App',
-		components:{School,Student}
-	}
+export default {
+  name: 'App',
+  components: {AppSchool, AppStudent}
+}
 </script>
 
 <style scoped>
-	.title{
-		color: red;
-	}
+.title {
+  color: red;
+}
 </style>
