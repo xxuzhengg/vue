@@ -43,7 +43,8 @@ export default {
     },
     //编辑
     handleEdit(todo) {
-      if (todo.hasOwnProperty('isEdit')) {
+      //if (todo.hasOwnProperty('isEdit')) {
+      if (Object.prototype.hasOwnProperty.call(todo, "isEdit")) {
         todo.isEdit = true
       } else {
         // console.log('@')
