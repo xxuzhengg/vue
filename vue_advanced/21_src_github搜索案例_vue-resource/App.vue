@@ -1,15 +1,16 @@
 <template>
-	<div class="container">
-		<Search/>
-		<List/>
-	</div>
+  <div class="container">
+    <AppSearch/>
+    <AppList/>
+  </div>
 </template>
 
 <script>
-	import Search from './components/Search'
-	import List from './components/List'
-	export default {
-		name:'App',
-		components:{Search,List}
-	}
+import AppSearch from './components/AppSearch'
+import AppList from './components/AppList'
+
+export default {
+  name: 'App',
+  components: {AppSearch, AppList}
+}
 </script>
