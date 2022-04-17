@@ -1,16 +1,17 @@
 <template>
-	<div>
-		<Count/>
-	</div>
+  <div>
+    <AppCount/>
+  </div>
 </template>
 
 <script>
-	import Count from './components/Count'
-	export default {
-		name:'App',
-		components:{Count},
-		mounted() {
-			// console.log('App',this)
-		},
-	}
+import AppCount from './components/AppCount'
+
+export default {
+  name: 'App',
+  components: {AppCount},
+  mounted() {
+    // console.log('App',this)
+  },
+}
 </script>
