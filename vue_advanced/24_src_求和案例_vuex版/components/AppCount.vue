@@ -36,7 +36,7 @@ export default {
     },
   },
   mounted() {
-    console.log('Count', this)
+    console.log('AppCount', this)
   },
 }
 </script>
