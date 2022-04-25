@@ -1,20 +1,20 @@
 <template>
-	<div>
-		<Count/>
-		<hr>
-		<Person/>
-	</div>
+  <div>
+    <AppCount/>
+    <hr>
+    <AppPerson/>
+  </div>
 </template>
 
 <script>
-	import Count from './components/Count'
-	import Person from './components/Person'
+import AppCount from './components/AppCount'
+import AppPerson from './components/AppPerson'
 
-	export default {
-		name:'App',
-		components:{Count,Person},
-		mounted() {
-			// console.log('App',this)
-		},
-	}
+export default {
+  name: 'App',
+  components: {AppCount, AppPerson},
+  mounted() {
+    // console.log('App',this)
+  },
+}
 </script>
