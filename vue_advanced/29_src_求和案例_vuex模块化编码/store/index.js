@@ -2,15 +2,15 @@
 import Vue from 'vue'
 //引入Vuex
 import Vuex from 'vuex'
-import countOptions from './count'
-import personOptions from './person'
+import countOptions from './modules/count'
+import personOptions from './modules/person'
 //应用Vuex插件
 Vue.use(Vuex)
 
 //创建并暴露store
 export default new Vuex.Store({
-	modules:{
-		countAbout:countOptions,
-		personAbout:personOptions
-	}
+    modules: {
+        countOptions,
+        personOptions
+    }
 })
