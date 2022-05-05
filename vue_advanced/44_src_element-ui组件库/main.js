@@ -10,7 +10,7 @@ import App from './App.vue'
 // import 'element-ui/lib/theme-chalk/index.css';
 
 //按需引入
-import { Button,Row,DatePicker } from 'element-ui';
+import {Button, Row, DatePicker} from 'element-ui';
 
 //关闭Vue的生产提示
 Vue.config.productionTip = false
@@ -23,6 +23,6 @@ Vue.component('atguigu-date-picker', DatePicker);
 
 //创建vm
 new Vue({
-	el:'#app',
-	render: h => h(App),
+    el: '#app',
+    render: h => h(App),
 })
