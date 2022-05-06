@@ -17,9 +17,9 @@ Vue.config.productionTip = false
 
 //应用ElementUI
 // Vue.use(ElementUI);
-Vue.component('atguigu-button', Button);
-Vue.component('atguigu-row', Row);
-Vue.component('atguigu-date-picker', DatePicker);
+Vue.component(Button.name, Button);
+Vue.component(Row.name, Row);
+Vue.component(DatePicker.name, DatePicker);
 
 //创建vm
 new Vue({
