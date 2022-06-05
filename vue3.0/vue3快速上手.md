@@ -553,7 +553,7 @@ npm run dev
 
       ```js
       import {defineAsyncComponent} from 'vue'
-      const Child = defineAsyncComponent(()=>import('./components/Child.vue'))
+      const Child = defineAsyncComponent(()=>import('./components/AppChild.vue'))
       ```
 
     - 使用```Suspense```包裹组件，并配置好```default``` 与 ```fallback```
