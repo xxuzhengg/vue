@@ -1,6 +1,6 @@
 ## provide 与 inject
 
-![通信](https://v3.cn.vuejs.org/images/components_provide.png)
+![](https://v3.cn.vuejs.org/images/components_provide.png)
 
 - 作用：实现<strong style="color:#DD5145">祖与后代组件间</strong>通信
 

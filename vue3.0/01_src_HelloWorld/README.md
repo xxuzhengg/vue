@@ -1,14 +1,14 @@
 # Vue3快速上手
 
-<img src="https://user-images.githubusercontent.com/499550/93624428-53932780-f9ae-11ea-8d16-af949e16a09f.png" style="width:200px" />
+![](https://user-images.githubusercontent.com/499550/93624428-53932780-f9ae-11ea-8d16-af949e16a09f.png)
 
 ## 1.Vue3简介
 
 - 2020年9月18日，Vue.js发布3.0版本，代号：One Piece（海贼王）
-- 耗时2年多、[2600+次提交](https://github.com/vuejs/vue-next/graphs/commit-activity)
-  、[30+个RFC](https://github.com/vuejs/rfcs/tree/master/active-rfcs)
-  、[600+次PR](https://github.com/vuejs/vue-next/pulls?q=is%3Apr+is%3Amerged+-author%3Aapp%2Fdependabot-preview+)
-  、[99位贡献者](https://github.com/vuejs/vue-next/graphs/contributors)
+  [耗时2年多、2600+次提交](https://github.com/vuejs/vue-next/graphs/commit-activity)
+  [30+个RFC](https://github.com/vuejs/rfcs/tree/master/active-rfcs)
+  [600+次PR](https://github.com/vuejs/vue-next/pulls?q=is%3Apr+is%3Amerged+-author%3Aapp%2Fdependabot-preview+)
+  [99位贡献者](https://github.com/vuejs/vue-next/graphs/contributors)
 - github上的tags地址：https://github.com/vuejs/vue-next/releases/tag/v3.0.0
 
 ## 2.Vue3带来了什么
@@ -86,7 +86,7 @@ vite官网：https://vitejs.cn
     - 真正的按需编译，不再等待整个应用编译完成。
 - 传统构建 与 vite构建对比图
 
-<img src="https://cn.vitejs.dev/assets/bundler.37740380.png" style="width:500px;height:280px;float:left" /><img src="https://cn.vitejs.dev/assets/esm.3070012d.png" style="width:480px;height:280px" />
+![](https://cn.vitejs.dev/assets/bundler.37740380.png)
 
 ```bash
 ## 创建工程
